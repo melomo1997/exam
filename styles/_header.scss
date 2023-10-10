@@ -1,4 +1,4 @@
-//  Landing:
+//  Landing
 
 .landing{
     background-image: url(../images/header.png);
@@ -50,6 +50,8 @@
     line-height: 26px; /* 185.714% */
     letter-spacing: 2.8px;
     }
+
+
     &__searchbtn{
     width: 153px;
     min-height: 63px;
@@ -92,72 +94,50 @@
     margin-left: 5px;
 }
 
-// sam
 
-.sam{
-    background-image: url(../images/man.png);
-    max-width: 1770px;
-    min-height: 731px;
-    flex-shrink: 0;
+
+@media only screen and (max-width:320px){
+
+    .landing{
+        background-image: url(../images/header.png ) ;
+         width: 100%;
+         max-width: 320px;
+         min-height: 630px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+
+.landing__title{
+    font-size: 25px;
+}
+
+.landing__prgh{
+    font-size:15px ;
+}
+
+.landing__form{
     display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-    
-
- &__ttl{
-    color: #FFF;
-    font-family: 'Aleo', serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 72.222% */
-    text-align: center;
-    
- }   
-
- &__img{
-    margin-left: 50px;
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
- }
- &__box{
-    width: 668px;
-    height: 287px;
-    flex-shrink: 0;
-    background-color:#333;
+}
+.landing__form__searchbar{
+    width: 300px;
+    min-height: 33px;
     
- }
- &__title{
-    margin-left: 50px;
-    color: #FEFEFE;
-    font-family: 'Josefin Sans', sans-serif; 
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 130% */
-    text-transform: uppercase;
- }
- &__txt{
-    margin-left: 50px;
-    max-width: 581px;
-    color: #E8E8E8;
-    font-family: 'Josefin Sans', sans-serif; 
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
- }
+
+}
+.landing__form__searchbtn{
+ font-size: 10px;
+ width: 93px;
+ min-height: 23px;
 
 }
 
-.fa-quote-left{
-    color: #5474FD;
-font-family: FontAwesome;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 72.222% */
+.landing__bottom{
+    font-size: 15px;
+}
 }
 
 

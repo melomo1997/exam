@@ -39,6 +39,11 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.contact__li:hover {
+  background-color: rgb(107, 188, 242);
+  cursor: pointer;
+  font-size: larger;
+}
 .contact__logo {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
@@ -266,6 +271,98 @@ svg {
 .spain__btn:hover {
   background-color: rgb(107, 188, 242);
   cursor: pointer;
+}
+.spain__btn:focus {
+  background-color: rgb(80, 236, 184);
+}
+
+.spaine {
+  max-width: 1770px;
+  min-height: 700px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-image: url(../images/spain-two.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.spaine__box {
+  background-color: #232323;
+  opacity: 0.9;
+  max-width: 543px;
+  height: 374px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 19cm;
+  padding-left: 2%;
+  margin-top: 5cm;
+}
+.spaine__ttl {
+  color: #E8E8E8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  letter-spacing: 1.5px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.spaine__p {
+  margin-left: 50px;
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  text-transform: uppercase;
+}
+.spaine__p-one {
+  margin-left: 50px;
+  color: #E8E8E8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.spaine__btn {
+  width: 228px;
+  height: 63px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: #5474FD;
+  color: #FFF;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+.spaine__btn:hover {
+  background-color: rgb(107, 188, 242);
+  cursor: pointer;
+}
+.spaine__btn:focus {
+  background-color: rgb(80, 236, 184);
 }
 
 .landing {

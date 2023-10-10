@@ -866,6 +866,9 @@ svg {
     width: 93px;
     min-height: 23px;
   }
+  .landing__form__searchbtn pseudo-classes, :valid .landing__form__searchbtn:focus {
+    color: #5474FD;
+  }
   .landing__bottom {
     font-size: 15px;
   }

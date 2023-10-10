@@ -1,0 +1,94 @@
+.landing {
+  background-image: url(../images/header.png);
+  max-width: 1770px;
+  min-height: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+.landing__title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.landing__prgh {
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+  letter-spacing: 6.82px;
+}
+.landing__form__searchbar {
+  width: 503px;
+  min-height: 63px;
+  fill: #FFF;
+  text-align: center;
+  color: #999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 2.8px;
+}
+.landing__form__searchbtn {
+  width: 153px;
+  min-height: 63px;
+  background-color: #5474FD;
+  border: 4px solid #FFF;
+  stroke: #FFF;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.landing__form__searchbtn:hover {
+  background-color: rgb(107, 188, 242);
+}
+.landing__bottom {
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 2.8px;
+}
+
+.fa-magnifying-glass {
+  margin-left: 5px;
+}
+
+body {
+  max-width: 1800px;
+  width: 100%;
+  height: 4271px;
+}

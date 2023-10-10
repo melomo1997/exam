@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+
       &__title{
         color: #FFF;
         text-align: center;
@@ -32,8 +33,6 @@
             line-height: 26px; /* 118.182% */
             letter-spacing: 6.82px; 
     }
-
-   
 
     &__form{
 
@@ -70,7 +69,11 @@
 &:hover{
     background-color: rgb(107, 188, 242);
 }
+&:focus{
+    background-color: rgb(80, 236, 184);
+}
     }
+
     }
 &__bottom{
     color: #FFF;
@@ -86,3 +89,5 @@
 .fa-magnifying-glass{
     margin-left: 5px;
 }
+
+

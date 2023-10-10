@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f594942deb.js" crossorigin="anonymous"></script>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <title>BHROMAON</title>
@@ -17,7 +14,7 @@
 <body>
 
     <!-- HEADER -->
-    <header class="landing">
+    <header class="landing" id="landing">
         <div class="landing__head">
         <h1 class="landing__title">
             BHROMAON
@@ -32,7 +29,7 @@
         </form>
         <div class="landing__bottom">
             <h5 class="animate__animated animate__pulse animate__infinite">Scroll Down</h5>
-            <i class="animate__animated animate__pulse animate__infinite  fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+            <a href="#home"><i class="animate__animated animate__pulse animate__infinite  fa-solid fa-chevron-down" style="color: #ffffff;"></i></a>
         </div>
     </header>
 
@@ -41,24 +38,31 @@
     <main>
         <!-- CONTACT -->
         <div class="contact">
-            <h3 class="contact__logo">BHROMAON</h3>
-            <div>
-                <nav class="contact__nav">
-                    <ul class="contact__ul">
-                        <li class="contact__li">WHO WE ARE</li>
-                        <li  class="contact__li">WHAT WE DO</li>
-                        <li  class="contact__li">TRAVEL WITH US</li>
-                        <li  class="contact__li">CONTACT US</li>
-                    </ul>
-                </nav>
-            </div>
+            <h3 class="contact__logo"><a href="#landing">BHROMAON</a></h3>
+            <nav class="contact__nav">
+                <ul class="contact__ul">
+                    <li class="contact__li"><a href="#home">WHO WE ARE</a></li>
+                    <li  class="contact__li"><a href="#travel">WHAT WE DO</a></li>
+                    <li  class="contact__li"><a href="#traveller">TRAVEL WITH US</a></li>
+                    <li  class="contact__li"><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
         </div>
 
-        
+        <div class="navbar">
+            <h3 class="navbar__logo">BHROMAON</h3>
+            <a href="#home" class="navbar__li">Who We Are</a>
+            <a href="#travel">What We Do</a>
+            <a href="#traveller">Travel With Us</a>
+            <a href="#contact">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
 
 
         <!-- about -->
-        <div class="about">
+        <div class="about" id="home">
             <div>
                 <h2 class="about__ttl">Why Choose Us</h2>
                 <p class="about__p">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee  </p>
@@ -92,14 +96,14 @@
         </div>
 
      <!-- spain -->
-        <div class="spain">
+        <div class="spain" id="travel">
             <div class="spain__box">
             <h3 class="spain__ttl">Spain</h3>
             <p class="spain__p">GRAND SPAIN MADRID</p>
             <p class="spain__p-one">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
             <button class="spain__btn">BOOK NOW</button>
+            </div>
         </div>
-    </div>
 
      <!-- spain 2 -->
     <div class="spaine">
@@ -112,7 +116,7 @@
 </div>
 
 <!-- last box -->
-<div class="sam">
+<div class="sam" id="traveller">
     <h2 class="sam__ttl">What Our  Tourist Say</h2>
     <div class="sam__img">
         <img class="sam__imag" src="images/man-stands.png" alt="">
@@ -126,7 +130,7 @@
 
 
       <!-- footer -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div>
             <h2 class="footer__ttl">BHROMAON</h2>
             <h3 class="footer__p">Safe Travel Anywhere</h3>

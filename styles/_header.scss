@@ -68,6 +68,8 @@
     text-transform: uppercase;
 &:hover{
     background-color: rgb(107, 188, 242);
+    font-size: larger;
+    cursor: pointer;
 }
 &:focus{
     background-color: rgb(80, 236, 184);

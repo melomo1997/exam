@@ -116,6 +116,7 @@
 .about__btn:hover {
   background-color: rgb(107, 188, 242);
   cursor: pointer;
+  font-size: larger;
 }
 .about__btn:focus {
   background-color: rgb(80, 236, 184);
@@ -271,6 +272,7 @@ svg {
 .spain__btn:hover {
   background-color: rgb(107, 188, 242);
   cursor: pointer;
+  font-size: larger;
 }
 .spain__btn:focus {
   background-color: rgb(80, 236, 184);
@@ -360,6 +362,7 @@ svg {
 .spaine__btn:hover {
   background-color: rgb(107, 188, 242);
   cursor: pointer;
+  font-size: larger;
 }
 .spaine__btn:focus {
   background-color: rgb(80, 236, 184);
@@ -438,6 +441,8 @@ svg {
 }
 .landing__form__searchbtn:hover {
   background-color: rgb(107, 188, 242);
+  font-size: larger;
+  cursor: pointer;
 }
 .landing__form__searchbtn:focus {
   background-color: rgb(80, 236, 184);
